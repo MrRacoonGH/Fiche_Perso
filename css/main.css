@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #111;
+    border-radius: 8px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center; /* Centre verticalement les éléments */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.profile-image {
+    margin-right: 20px; /* Espace entre l'image et la liste */
+}
+
+.profile-image img {
+    width: 50px; /* Ajuste la taille de l'image selon tes besoins */
+    height: 50px; /* Ajuste la taille de l'image selon tes besoins */
+    border-radius: 50%; /* Rend l'image circulaire */
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1; /* Permet à la liste de s'étendre */
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    transition: background-color 0.3s, border-radius 0.3s;
+    border-radius: 8px;
+}
+
+.nav-list a:hover {
+    background-color: #333;
+    border-radius: 8px;
+}
+
